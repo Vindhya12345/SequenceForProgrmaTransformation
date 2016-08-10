@@ -1,0 +1,3 @@
+Notes :  I have used, opt for optimization, and llvm-bcanalyzer,oprofile's ocount, and opt for analyzing the optimizations and sequences. Apart from this, also observed cpu usage using top, and other usages using  Instruments in Mac(Activity Monitor). Used llc amd gcc to change .bc to executables.For execution time I used -time-passes of opt and ocount's results. Also tallied results obtained from lli(llvm tool). [lli results not included]
+
+
